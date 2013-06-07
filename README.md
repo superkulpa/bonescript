@@ -14,7 +14,9 @@ simplify learning how to do physical computing tasks under embedded Linux
 and to further provide support for rapidly creating GUIs for your embedded
 applications through the use of HTML5/JavaScript web pages.
 
-
+note:
+Fork especially to test i/o of BB: adc,pwm,gpio,i2c,spi,uart
+ 
 Installation
 ------------
 Bonescript comes installed on your BeagleBone.  If you are looking to update
@@ -27,6 +29,27 @@ opkg install bonescript
 
 Support for other distributions is a work in progress.
 
+For BB and Ubuntu 12.04, linux 3.2.33 jan9 2013, from here:
+http://rcn-ee.net/deb/rootfs/quantal/
+
+nodejs v0.8.24, compiled from source:
+git clone git://github.com/joyent/node.git
+cd node
+git checkout v0.8.24
+./configure 
+make
+make install
+
+npm 1.2.24 from package:
+sudo apt-get install npm
+
+cloud9 from source:
+git clone git://github.com/ajaxorg/cloud9.git
+cd cloud9
+bin/cloud9.sh
+cd ..
+
+bonescript from here.
 
 Launching applications persistently
 -----------------------------------
