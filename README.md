@@ -29,7 +29,7 @@ opkg install bonescript
 
 Support for other distributions is a work in progress.
 
-For BB and Ubuntu 12.04, linux 3.2.33 jan9 2013, from here:
+Note for Ubuntu 12.04, linux 3.2.33 jan9 2013, from here:
 http://rcn-ee.net/deb/rootfs/quantal/
 
 nodejs v0.8.24, compiled from source:
