@@ -33,21 +33,27 @@ For BB and Ubuntu 12.04, linux 3.2.33 jan9 2013, from here:
 http://rcn-ee.net/deb/rootfs/quantal/
 
 nodejs v0.8.24, compiled from source:
+````
 git clone git://github.com/joyent/node.git
 cd node
 git checkout v0.8.24
 ./configure 
 make
 make install
+````
 
 npm 1.2.24 from package:
+````
 sudo apt-get install npm
+````
 
 cloud9 from source:
+````
 git clone git://github.com/ajaxorg/cloud9.git
 cd cloud9
 bin/cloud9.sh
 cd ..
+````
 
 bonescript from here.
 
