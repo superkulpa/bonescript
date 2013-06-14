@@ -20,5 +20,5 @@ function loop() {
             + " ADC5: " +  b.analogRead(adc5).toFixed(3)
             + " ADC6: " +  b.analogRead(adc6).toFixed(3) );
     //b.analogWrite(outputPin, value);
-    setTimeout(loop, 5000);
+    setTimeout(loop, 1000);
 }
