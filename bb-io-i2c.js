@@ -33,7 +33,7 @@ function set_i2c(_i2c_adress, _offs, _value, _callback){
 
 var i = 0;
 loop();
-
+//работаем в цикле по таймеру
 function loop() {
   
   get_i2c(0x20, 0x00
@@ -59,6 +59,6 @@ function loop() {
   
 
   if(++i > 0xFF) i = 0;
-  
+  //таймер на 1000мсек
   setTimeout(loop, 1000);
 }

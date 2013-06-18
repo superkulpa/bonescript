@@ -1,5 +1,7 @@
 var b = require('bonescript');
-
+/** Тесты ШИМ
+ */
+ 
 var pwm0 = "P9_14";
 var pwm1 = "P9_16";
 var value = 0.0;

@@ -1,5 +1,6 @@
 var b = require('bonescript');
-
+/** Тест АЦП
+ */
 var adc0 = "P9_39";
 var adc1 = "P9_40";
 var adc2 = "P9_37";
